@@ -1,0 +1,358 @@
+<!DOCTYPE html>
+<html lang="es">
+<head>
+  <meta charset="UTF-8" />
+  <meta name="viewport" content="width=device-width, initial-scale=1.0"/>
+  <title>Innovación con Design Thinking</title>
+
+  <style>
+    *{
+      margin:0;
+      padding:0;
+      box-sizing:border-box;
+      font-family: Arial, Helvetica, sans-serif;
+    }
+
+    body{
+      background:#0f172a;
+      color:white;
+      line-height:1.6;
+    }
+
+    header{
+      background:linear-gradient(135deg,#1e3a8a,#0f172a);
+      padding:80px 20px;
+      text-align:center;
+    }
+
+    header h1{
+      font-size:55px;
+      margin-bottom:15px;
+      color:#facc15;
+    }
+
+    header p{
+      max-width:800px;
+      margin:auto;
+      font-size:20px;
+      color:#e2e8f0;
+    }
+
+    nav{
+      background:#111827;
+      padding:15px;
+      text-align:center;
+      position:sticky;
+      top:0;
+      z-index:1000;
+    }
+
+    nav a{
+      color:white;
+      text-decoration:none;
+      margin:0 15px;
+      font-weight:bold;
+      transition:0.3s;
+    }
+
+    nav a:hover{
+      color:#38bdf8;
+    }
+
+    section{
+      padding:60px 10%;
+    }
+
+    .titulo{
+      text-align:center;
+      margin-bottom:40px;
+    }
+
+    .titulo h2{
+      font-size:40px;
+      color:#38bdf8;
+      margin-bottom:10px;
+    }
+
+    .cards{
+      display:grid;
+      grid-template-columns:repeat(auto-fit,minmax(250px,1fr));
+      gap:25px;
+    }
+
+    .card{
+      background:#1e293b;
+      padding:25px;
+      border-radius:20px;
+      transition:0.4s;
+      box-shadow:0px 5px 15px rgba(0,0,0,0.4);
+    }
+
+    .card:hover{
+      transform:translateY(-10px);
+      background:#334155;
+    }
+
+    .card h3{
+      color:#facc15;
+      margin-bottom:15px;
+    }
+
+    .problema{
+      background:#111827;
+      border-left:8px solid #ef4444;
+      padding:30px;
+      border-radius:15px;
+      margin-top:30px;
+    }
+
+    .solucion{
+      background:#0f766e;
+      padding:30px;
+      border-radius:15px;
+      margin-top:30px;
+    }
+
+    .beneficios{
+      display:flex;
+      flex-wrap:wrap;
+      gap:20px;
+      justify-content:center;
+      margin-top:40px;
+    }
+
+    .beneficio{
+      background:#1e293b;
+      width:220px;
+      padding:25px;
+      border-radius:15px;
+      text-align:center;
+      transition:0.3s;
+    }
+
+    .beneficio:hover{
+      background:#2563eb;
+      transform:scale(1.05);
+    }
+
+    footer{
+      background:#020617;
+      text-align:center;
+      padding:30px;
+      margin-top:50px;
+      color:#94a3b8;
+    }
+
+    .btn{
+      display:inline-block;
+      margin-top:25px;
+      padding:14px 30px;
+      background:#facc15;
+      color:black;
+      font-weight:bold;
+      border-radius:10px;
+      text-decoration:none;
+      transition:0.3s;
+    }
+
+    .btn:hover{
+      background:#fde047;
+      transform:scale(1.05);
+    }
+
+  </style>
+</head>
+<body>
+
+  <header>
+    <h1>Innovación con Design Thinking</h1>
+    <p>
+      Transformando la movilidad nocturna de estudiantes en Cali
+      mediante soluciones digitales seguras, accesibles y colaborativas.
+    </p>
+
+    <a href="#problema" class="btn">Ver Proyecto</a>
+  </header>
+
+  <nav>
+    <a href="#problema">Problema</a>
+    <a href="#fases">Fases</a>
+    <a href="#solucion">Solución</a>
+    <a href="#beneficios">Beneficios</a>
+    <a href="#equipo">Equipo</a>
+  </nav>
+
+  <section id="problema">
+
+    <div class="titulo">
+      <h2>Problema Social</h2>
+      <p>El desafío del transporte nocturno en Cali</p>
+    </div>
+
+    <div class="problema">
+      <p>
+        Actualmente, los estudiantes de jornada nocturna enfrentan
+        dificultades para regresar a casa después de las 9:30 PM.
+        La baja frecuencia del transporte público, la inseguridad
+        y el alto costo de plataformas generan ansiedad,
+        riesgos físicos y deserción estudiantil.
+      </p>
+    </div>
+
+  </section>
+
+  <section id="fases">
+
+    <div class="titulo">
+      <h2>Fases Design Thinking</h2>
+      <p>Proceso creativo utilizado en el proyecto</p>
+    </div>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>1. Empatizar</h3>
+        <p>
+          Comprendimos las necesidades de los estudiantes nocturnos,
+          identificando inseguridad, cansancio y problemas económicos.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>2. Definir</h3>
+        <p>
+          Analizamos causas como la baja frecuencia del MIO,
+          falta de iluminación y altos costos de transporte.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>3. Idear</h3>
+        <p>
+          Creamos soluciones digitales colaborativas enfocadas
+          en seguridad, rutas compartidas y ahorro económico.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>4. Prototipar</h3>
+        <p>
+          Diseñamos un prototipo digital elegante y fácil de usar
+          para estudiantes universitarios.
+        </p>
+      </div>
+
+      <div class="card">
+        <h3>5. Evaluar</h3>
+        <p>
+          Aplicamos pruebas SUS para medir la experiencia
+          de usuario y validar la solución propuesta.
+        </p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="solucion">
+
+    <div class="titulo">
+      <h2>Nuestra Solución</h2>
+      <p>Innovación que mejora la seguridad y movilidad</p>
+    </div>
+
+    <div class="solucion">
+
+      <h3>¿Qué propone el proyecto?</h3>
+
+      <p>
+        Una plataforma digital que permita a estudiantes:
+      </p>
+
+      <br>
+
+      <ul>
+        <li>Compartir rutas seguras.</li>
+        <li>Conocer horarios reales del transporte.</li>
+        <li>Organizar movilidad colaborativa.</li>
+        <li>Reducir costos de desplazamiento.</li>
+        <li>Sentirse acompañados y protegidos.</li>
+      </ul>
+
+    </div>
+
+  </section>
+
+  <section id="beneficios">
+
+    <div class="titulo">
+      <h2>Beneficios Clave</h2>
+    </div>
+
+    <div class="beneficios">
+
+      <div class="beneficio">
+        <h3>Mayor Seguridad</h3>
+        <p>Protección para estudiantes nocturnos.</p>
+      </div>
+
+      <div class="beneficio">
+        <h3>Ahorro</h3>
+        <p>Reducción de gastos en transporte.</p>
+      </div>
+
+      <div class="beneficio">
+        <h3>Tiempo</h3>
+        <p>Mejor organización de rutas y horarios.</p>
+      </div>
+
+      <div class="beneficio">
+        <h3>Bienestar</h3>
+        <p>Menos ansiedad y estrés al regresar a casa.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <section id="equipo">
+
+    <div class="titulo">
+      <h2>Equipo del Proyecto</h2>
+      <p>Innovadores comprometidos con el cambio social</p>
+    </div>
+
+    <div class="cards">
+
+      <div class="card">
+        <h3>Juan Sebastian Villota</h3>
+        <p>Desarrollo y diseño del proyecto.</p>
+      </div>
+
+      <div class="card">
+        <h3>Jhoana Sánchez</h3>
+        <p>Investigación y análisis del problema.</p>
+      </div>
+
+      <div class="card">
+        <h3>Jose Steven Castillo</h3>
+        <p>Propuestas y validación de soluciones.</p>
+      </div>
+
+      <div class="card">
+        <h3>Cristian Camilo Bañol</h3>
+        <p>Evaluación y organización del prototipo.</p>
+      </div>
+
+    </div>
+
+  </section>
+
+  <footer>
+    <p>
+      © 2026 - Proyecto de Innovación | Design Thinking
+    </p>
+  </footer>
+
+</body>
+</html>
